@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+    padding: 0px;
     font-weight: 400;
 }
 .mb{
@@ -51,4 +52,51 @@ h1 {
     padding-right: 62px;
     font-size: 16px;
     line-height: 24px;
+}
+
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-bottom: 200px;
+}
+.boxs{
+    margin: 0 auto;
+    width: 90%;
+}
+#full-stack-web-dev h3{
+    color: orange;
+}
+#full-stack-web-dev p{
+    color: #282828;
+    line-height: 27px;
+}
+#full-stack-web-dev{
+    width: 45%;
+    box-shadow: 10px 30px 45px gray;
+    padding: 25px;
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+    margin-right: 10%;
+}
+#web-dev{
+    width: 45%;
+    box-shadow: 10px 30px 45px gray;
+    padding: 25px;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#web-dev h3{
+    color: orange;
+}
+#web-dev p{
+    color: #282828;
+    line-height: 27px;
+}
+
+footer p{
+    text-align: center;
 }
